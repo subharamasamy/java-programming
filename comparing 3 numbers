@@ -1,0 +1,58 @@
+package comparingnumbers;
+
+public class ComparingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int a=80800;
+	int b=800900;
+	int c=80000;
+	if(a>b)
+		if(a>c)
+			System.out.println("a is greater");
+		else if(c>a)
+			System.out.println("c is greater");
+		else
+			System.out.println("a and c are equal");
+
+	else if(b>a)
+		if(b>c)
+			System.out.println("b is greater");
+		else if(c>b)
+			System.out.println("c is greater");
+		else
+			System.out.println("b and c are equal");
+	else if(a>c)
+		if(a>b)
+			System.out.println("a is greater");
+		else if(b>a)
+			System.out.println("b is greater");
+		else
+			System.out.println("a and b are equal");
+	else if(c>a)
+		if(c>b)
+			System.out.println("c is greater");
+		else if(b>c)
+			System.out.println("b is greater");
+		else
+			System.out.println("b and c are equal");
+	else if(b>c)
+		if(b>a)
+			System.out.println("a is greater");
+		else if(a>b)
+			System.out.println("b is greater");
+		else
+			System.out.println("a and b are equal");
+	else if(c>b)
+		if(c>b)
+			System.out.println("a is greater");
+		else if(b>c)
+			System.out.println("b is greater");
+		else
+			System.out.println("b and c are equal");
+	else
+		System.out.println("a , b , c are equal");
+	
+	}
+
+}
